@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blocks {
+  display: flex;
+  width: 780px;
+  margin: calc(50vh - 125px) auto;
+}
+
+.small-block {
+  width: 45px;
+  height: 45px;
+}
+
+.small-block:nth-child(2n-1) {
+  background-color: aquamarine;
+}
+
+.small-block:nth-child(2n) {
+  background-color: chartreuse;
+}
+//git remote add origin https://github.com/alisamat3/hehe.git
+.block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  background: black;
+}
+
+
